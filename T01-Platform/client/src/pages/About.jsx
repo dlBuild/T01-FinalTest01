@@ -101,8 +101,8 @@ export default function About() {
 
       {/* HERO SECTION */}
       <section className="bg-navy-900 text-cream-soft py-20 md:py-28">
-        <div className="container-t01 max-w-4xl text-center">
-          <span className="section-tag">ABOUT T01</span>
+        <div className="container-storiisto max-w-4xl text-center">
+          <span className="section-tag">ABOUT storiisto</span>
 
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold leading-tight mt-5 mb-8">
             Your Future Deserves More Than Guesswork.
@@ -129,7 +129,7 @@ export default function About() {
             </p>
 
             <p className="text-xl font-bold text-cream-soft">
-              T01 was created to help change that.
+              storiisto was created to help change that.
             </p>
 
             <p>
@@ -140,7 +140,7 @@ export default function About() {
             </p>
 
             <p>
-              T01 is our initiative to make reliable, practical and
+              storiisto is our initiative to make reliable, practical and
               affordable guidance accessible to students, graduates and
               young people who want to build a better future.
             </p>
@@ -149,7 +149,7 @@ export default function About() {
       </section>
 
       {/* OUR STORY */}
-      <section className="container-t01 py-20 md:py-24 max-w-4xl">
+      <section className="container-storiisto py-20 md:py-24 max-w-4xl">
         <div className="text-center mb-12">
           <span className="section-tag">OUR STORY</span>
           <h2 className="text-3xl md:text-4xl font-extrabold text-navy-900 mt-4">
@@ -162,7 +162,7 @@ export default function About() {
 
         <div className="space-y-6 text-navy-800/75 leading-relaxed text-base md:text-lg">
           <p>
-            The journey of T01 began around 2022 with a simple idea:
+            The journey of storiisto began around 2022 with a simple idea:
             to help students overcome their learning difficulties and
             make their educational journey easier.
           </p>
@@ -214,12 +214,12 @@ export default function About() {
           </p>
 
           <p>
-            That realisation became the foundation of the T01 platform.
+            That realisation became the foundation of the storiisto platform.
           </p>
 
           <p>
             Today, with a dedicated team and a bigger vision, we are
-            taking the next step: building T01 into a platform that
+            taking the next step: building storiisto into a platform that
             brings learning resources, career guidance, personal
             development and practical solutions together in one place.
           </p>
@@ -237,7 +237,7 @@ export default function About() {
 
       {/* WHY WE EXIST */}
       <section className="bg-cream-soft py-20 md:py-24">
-        <div className="container-t01 max-w-4xl">
+        <div className="container-storiisto max-w-4xl">
           <div className="text-center mb-10">
             <span className="section-tag">OUR PURPOSE</span>
             <h2 className="text-3xl md:text-4xl font-extrabold text-navy-900 mt-4">
@@ -291,7 +291,7 @@ export default function About() {
       </section>
 
       {/* WHAT WE ARE BUILDING */}
-      <section className="container-t01 py-20 md:py-24">
+      <section className="container-storiisto py-20 md:py-24">
         <div className="text-center max-w-3xl mx-auto mb-14">
           <span className="section-tag">WHAT WE DO</span>
           <h2 className="text-3xl md:text-4xl font-extrabold text-navy-900 mt-4">
@@ -301,7 +301,7 @@ export default function About() {
             Practical Solutions for Every Stage of Your Growth.
           </p>
           <p className="text-navy-800/70 leading-relaxed mt-5">
-            T01 is being developed as a growing digital platform that
+            storiisto is being developed as a growing digital platform that
             supports young people across different areas of education,
             career development and personal growth.
           </p>
@@ -336,7 +336,7 @@ export default function About() {
 
       {/* OUR APPROACH */}
       <section className="bg-navy-900 text-cream-soft py-20 md:py-24">
-        <div className="container-t01">
+        <div className="container-storiisto">
           <div className="text-center mb-14">
             <span className="section-tag">OUR APPROACH</span>
             <h2 className="text-3xl md:text-4xl font-extrabold mt-4">
@@ -372,7 +372,7 @@ export default function About() {
       </section>
 
       {/* LONG-TERM VISION */}
-      <section className="container-t01 py-20 md:py-24 max-w-4xl">
+      <section className="container-storiisto py-20 md:py-24 max-w-4xl">
         <div className="text-center mb-10">
           <span className="section-tag">OUR VISION</span>
           <h2 className="text-3xl md:text-4xl font-extrabold text-navy-900 mt-4">
@@ -382,7 +382,7 @@ export default function About() {
 
         <div className="space-y-5 text-navy-800/75 text-base md:text-lg leading-relaxed">
           <p>
-            We don't see T01 as just a collection of digital documents,
+            We don't see storiisto as just a collection of digital documents,
             courses or educational content.
           </p>
 
@@ -394,7 +394,7 @@ export default function About() {
           </p>
 
           <p className="font-bold text-navy-900">
-            As T01 grows, we aim to introduce:
+            As storiisto grows, we aim to introduce:
           </p>
         </div>
 
@@ -423,14 +423,14 @@ export default function About() {
 
           <p className="font-bold text-navy-900">
             We are starting with what we can offer today and working
-            towards what we want T01 to become tomorrow.
+            towards what we want storiisto to become tomorrow.
           </p>
         </div>
       </section>
 
       {/* JOIN OUR JOURNEY */}
       <section className="bg-cream-soft py-20 md:py-24">
-        <div className="container-t01 max-w-3xl text-center">
+        <div className="container-storiisto max-w-3xl text-center">
           <span className="section-tag">BE PART OF OUR JOURNEY</span>
 
           <h2 className="text-3xl md:text-5xl font-extrabold text-navy-900 mt-5 mb-6">
@@ -439,7 +439,7 @@ export default function About() {
 
           <div className="space-y-5 text-navy-800/70 text-base md:text-lg leading-relaxed">
             <p>
-              T01 is still growing, and we know there is a lot more to build.
+              storiisto is still growing, and we know there is a lot more to build.
             </p>
 
             <p>
@@ -447,7 +447,7 @@ export default function About() {
             </p>
 
             <p>
-              Create your free T01 account to explore available free
+              Create your free storiisto account to explore available free
               guides, documents and learning resources. Stay connected
               to discover new releases, updates and opportunities as
               we expand the platform.
@@ -474,11 +474,11 @@ export default function About() {
       </section>
 
       {/* STAY CONNECTED */}
-      <section className="container-t01 py-20 md:py-24">
+      <section className="container-storiisto py-20 md:py-24">
         <div className="text-center mb-12">
           <span className="section-tag">STAY CONNECTED</span>
           <h2 className="text-3xl md:text-4xl font-extrabold text-navy-900 mt-4">
-            Stay Connected With T01
+            Stay Connected With storiisto
           </h2>
           <p className="text-navy-800/65 mt-3 text-lg">
             Follow us and never miss an update.
@@ -503,7 +503,7 @@ export default function About() {
               </p>
 
               <span className="inline-block mt-4 text-sm font-bold text-navy-900">
-                Follow T01 →
+                Follow storiisto →
               </span>
             </a>
           ))}
@@ -512,13 +512,13 @@ export default function About() {
 
       {/* FINAL BRAND MESSAGE */}
       <section className="bg-navy-900 text-cream-soft py-16">
-        <div className="container-t01 text-center">
+        <div className="container-storiisto text-center">
           <h2 className="text-2xl md:text-4xl font-extrabold">
             One Step at a Time. One Better Future at a Time.
           </h2>
 
           <p className="text-cream-soft/65 mt-5 text-lg">
-            T01 — Your Growth, Our Purpose.
+            storiisto — Your Growth, Our Purpose.
           </p>
 
           <p className="text-cream-soft/45 mt-3 text-sm">

@@ -10,7 +10,7 @@ const { fulfillOrder, syncOrderStatus } = require('../services/fulfillment');
 
 exports.checkoutRules = [body('productId').isMongoId().withMessage('Invalid product')];
 
-const newOrderId = () => `T01_${Date.now()}_${crypto.randomBytes(4).toString('hex')}`;
+const newOrderId = () => `storiisto_${Date.now()}_${crypto.randomBytes(4).toString('hex')}`;
 
 /**
  * Checkout -> Create Pending Order -> Online Payment

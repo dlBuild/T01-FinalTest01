@@ -22,10 +22,11 @@ import AdminEbook from './pages/admin/AdminEbook';
 import Learn from './pages/Learn';
 import Legal from './pages/Legal';
 
+
 const OldProductLink = () => <Navigate to={`/options/${useParams().slug}`} replace />; // old /products/:slug links keep working
 
 const NotFound = () => (
-  <div className="container-t01 py-24 text-center">
+  <div className="container-storiisto py-24 text-center">
     <h1 className="text-7xl font-extrabold text-navy-800/20">404</h1>
     <p className="mt-3 mb-6">This page does not exist.</p>
     <a href="/" className="btn-primary">Back to home</a>
@@ -46,6 +47,10 @@ export default function App() {
           <Route path="/terms" element={<Legal page="terms" />} />
           <Route path="/refund-policy" element={<Legal page="refund-policy" />} />
           <Route path="/privacy" element={<Legal page="privacy" />} />
+          <Route path="/faq" element={<Legal page="faq" />} />
+          <Route path="/feedback" element={<Legal page="feedback" />} />
+          
+
 
           {/* Needs an account. Logged-out visitors go to Login and are sent back here afterwards. */}
           <Route path="/options" element={<ProtectedRoute><Products /></ProtectedRoute>} />

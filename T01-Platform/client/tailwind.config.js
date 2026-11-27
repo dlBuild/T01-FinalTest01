@@ -1,4 +1,4 @@
-/** T01 design tokens - taken from project-T01-Designs (index.html) */
+/** storiisto design tokens - taken from project-storiisto-Designs (index.html) */
 export default {
   content: ['./index.html', './src/**/*.{js,jsx}'],
   theme: {

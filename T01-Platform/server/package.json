@@ -1,7 +1,7 @@
 {
-  "name": "t01-server",
+  "name": "storiisto-server",
   "version": "1.0.0",
-  "description": "Project T01 - API server (Express, MongoDB, Cashfree)",
+  "description": "storiisto - API server (Express, MongoDB, Cashfree)",
   "main": "server.js",
   "private": true,
   "engines": { "node": ">=18" },

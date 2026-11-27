@@ -18,7 +18,7 @@ export default function Checkout() {
   useEffect(() => { productAPI.get(slug).then((r) => setP(r.data.product)).catch(() => setP(false)); }, [slug]);
 
   if (p === null) return <Spinner full />;
-  if (p === false) return <div className="container-t01 py-24 text-center">Product not found.</div>;
+  if (p === false) return <div className="container-storiisto py-24 text-center">Product not found.</div>;
 
   const pay = async () => {
     setBusy(true);
@@ -35,7 +35,7 @@ export default function Checkout() {
   };
 
   return (
-    <div className="container-t01 py-12 max-w-2xl">
+    <div className="container-storiisto py-12 max-w-2xl">
       <h1 className="text-3xl font-extrabold mb-6">Checkout</h1>
       <div className="card p-6 space-y-4">
         <div className="flex justify-between gap-4">

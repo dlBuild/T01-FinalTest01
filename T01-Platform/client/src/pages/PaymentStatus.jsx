@@ -33,7 +33,7 @@ export default function PaymentStatus() {
     return () => { stop = true; clearTimeout(timer); };
   }, [orderId]);
 
-  if (error) return <div className="container-t01 py-24 text-center"><p className="mb-4">{error}</p><Link className="btn-dark" to="/dashboard">Go to dashboard</Link></div>;
+  if (error) return <div className="container-storiisto py-24 text-center"><p className="mb-4">{error}</p><Link className="btn-dark" to="/dashboard">Go to dashboard</Link></div>;
   if (!order) return <Spinner full />;
 
   const view = {
@@ -44,7 +44,7 @@ export default function PaymentStatus() {
   }[order.status];
 
   return (
-    <div className="container-t01 py-16 flex justify-center">
+    <div className="container-storiisto py-16 flex justify-center">
       <div className="card p-8 max-w-md w-full text-center">
         <div className="flex justify-center">{view.icon}</div>
         <h1 className="text-2xl font-extrabold mt-4">{view.title}</h1>

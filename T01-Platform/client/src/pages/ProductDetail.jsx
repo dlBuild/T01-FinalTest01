@@ -32,12 +32,12 @@ export default function ProductDetail() {
   }, [p]);
 
   if (p === null) return <Spinner full />;
-  if (p === false) return <div className="container-t01 py-24 text-center">Product not found. <Link className="underline" to="/options">Back to options</Link></div>;
+  if (p === false) return <div className="container-storiisto py-24 text-center">Product not found. <Link className="underline" to="/options">Back to options</Link></div>;
 
   const s = outline?.stats;
 
   return (
-    <div className="container-t01 py-12 grid lg:grid-cols-3 gap-10">
+    <div className="container-storiisto py-12 grid lg:grid-cols-3 gap-10">
       <div className="lg:col-span-2">
         <Link to="/options" className="text-sm font-bold text-sky-brand">← All products</Link>
         <span className="badge bg-mint ml-3">{categoryLabel(p.category)}</span>
@@ -45,7 +45,7 @@ export default function ProductDetail() {
         <p className="text-lg text-navy-800/70 mt-2">{p.tagline}</p>
 
         <div className="mt-6 rounded-2xl overflow-hidden bg-sky-soft h-64 flex items-center justify-center">
-          {p.thumbnail ? <img src={p.thumbnail} alt={p.title} className="h-full w-full object-cover" /> : <span className="text-7xl font-extrabold text-navy-800/15">T01<span className="text-amber">.</span></span>}
+          {p.thumbnail ? <img src={p.thumbnail} alt={p.title} className="h-full w-full object-cover" /> : <span className="text-7xl font-extrabold text-navy-800/15">storiisto<span className="text-amber">.</span></span>}
         </div>
 
         {s && s.chapters > 0 && (

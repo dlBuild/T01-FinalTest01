@@ -2,7 +2,7 @@
  * Cashfree Payment Gateway client (REST, no SDK needed - Node >= 18 has global fetch).
  * Docs: https://docs.cashfree.com/reference/pg-new-apis-endpoints
  *
- * Flow used by T01 (see docs/PAYMENT-FLOW.md):
+ * Flow used by storiisto (see docs/PAYMENT-FLOW.md):
  *   createOrder  -> returns payment_session_id for the browser checkout
  *   getOrder     -> backend verification of the final status (never trust the browser)
  *   getPayments  -> used to detect failed attempts so the user can retry
@@ -26,7 +26,7 @@ async function request(method, path, body) {
   });
   const data = await res.json().catch(() => ({}));
   if (!res.ok) {
-    console.error('[T01] Cashfree error', res.status, data);
+    console.error('[storiisto] Cashfree error', res.status, data);
     const err = new Error(data.message || 'Payment gateway error. Please try again.');
     err.statusCode = 502;
     throw err;

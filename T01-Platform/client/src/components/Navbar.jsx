@@ -4,7 +4,7 @@ import { FiMenu, FiX } from 'react-icons/fi';
 import { useAuth } from '../context/AuthContext';
 
 export const Logo = ({ size = 'text-3xl' }) => (
-  <span className={`${size} font-extrabold text-cream-soft`}>T01<span className="text-amber">.</span></span>
+  <span className={`${size} font-extrabold text-cream-soft`}>storiisto<span className="text-amber">.</span></span>
 );
 
 export default function Navbar() {
@@ -21,7 +21,7 @@ export default function Navbar() {
   const links = (
     <>
       <NavLink to="/" end className={link}>Home</NavLink>
-      <NavLink to="/options" className={link}>Right Options</NavLink>
+      <NavLink to="/options" className={link}>Right Solutions</NavLink>
       <NavLink to="/about" className={link}>Our Story</NavLink>
       {user && <NavLink to={dash[0]} className={link}>{dash[1]}</NavLink>}
     </>
@@ -29,7 +29,7 @@ export default function Navbar() {
 
   return (
     <header className="bg-navy-900 sticky top-0 z-40">
-      <div className="container-t01 flex items-center justify-between min-h-[72px]">
+      <div className="container-storiisto flex items-center justify-between min-h-[72px]">
         <Link to="/" onClick={close}><Logo /></Link>
 
         <nav className="hidden md:flex items-center gap-9">{links}</nav>

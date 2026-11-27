@@ -16,7 +16,7 @@
   .input { @apply w-full rounded-lg border border-navy-800/15 bg-white px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-amber/50 focus:border-amber; }
   .label { @apply block text-sm font-semibold mb-1.5; }
   .card { @apply bg-white rounded-2xl shadow-card; }
-  .container-t01 { @apply max-w-6xl mx-auto px-5 sm:px-8; }
+  .container-storiisto { @apply max-w-6xl mx-auto px-5 sm:px-8; }
   .section-tag { @apply inline-block bg-navy-800 text-white text-xs font-bold tracking-wide uppercase px-4 py-1.5 rounded-[10px] mb-6; }
   .badge { @apply inline-flex items-center rounded-full px-2.5 py-0.5 text-xs font-bold; }
 }

@@ -17,7 +17,7 @@ export default function PaymentMock() {
   };
 
   return (
-    <div className="container-t01 py-16 flex justify-center">
+    <div className="container-storiisto py-16 flex justify-center">
       <div className="card p-8 max-w-md w-full text-center">
         <span className="badge bg-amber/30 text-navy-800">TEST MODE</span>
         <h1 className="text-2xl font-extrabold mt-4">Mock payment gateway</h1>

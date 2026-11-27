@@ -22,7 +22,7 @@ exports.register = asyncHandler(async (req, res) => {
   const { name, email, phone, password } = req.body;
   if (await User.findOne({ email })) return res.status(400).json({ success: false, message: 'Email already registered. Please log in.' });
   const user = await User.create({ name, email, phone, password }); // role is never taken from the client
-  sendEmail({ to: user.email, subject: 'Welcome to T01', html: templates.welcome(user.name) });
+  sendEmail({ to: user.email, subject: 'Welcome to storiisto', html: templates.welcome(user.name) });
   sendToken(user, 201, res);
 });
 
@@ -62,7 +62,7 @@ exports.forgotPassword = asyncHandler(async (req, res) => {
   if (user) {
     const token = user.createResetToken();
     await user.save({ validateBeforeSave: false });
-    sendEmail({ to: user.email, subject: 'Reset your T01 password', html: templates.resetPassword(user.name, `${env.clientUrl}/reset-password/${token}`) });
+    sendEmail({ to: user.email, subject: 'Reset your storiisto password', html: templates.resetPassword(user.name, `${env.clientUrl}/reset-password/${token}`) });
   }
   // Same response either way so emails cannot be enumerated
   res.json({ success: true, message: 'If that email is registered, a reset link has been sent.' });

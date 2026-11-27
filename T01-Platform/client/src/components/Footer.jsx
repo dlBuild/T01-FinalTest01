@@ -5,7 +5,7 @@ import { Logo } from './Navbar';
 export default function Footer() {
   return (
     <footer className="bg-navy-900 text-cream-soft/70">
-      <div className="container-t01 py-14 flex flex-col md:flex-row md:items-center md:justify-between gap-10-6">
+      <div className="container-storiisto py-14 flex flex-col md:flex-row md:items-center md:justify-between gap-10-6">
 
         {/* Brand Section */}
         <div>
@@ -17,17 +17,17 @@ export default function Footer() {
 
         {/* Footer Links */}
         <div className="grid grid-cols-2 sm:grid-cols-2 gap-x-8 gap-y-4 text-sm">
-          <Link to="https://www.youtube.com/" className="hover:text-amber">YouTube</Link>
-          <Link to="https://www.instagram.com/" className="hover:text-amber">Instagram</Link>
+          <Link to="https://www.youtube.com/@storiisto" className="hover:text-amber">YouTube</Link>
+          <Link to="https://www.instagram.com/storiisto_" className="hover:text-amber">Instagram</Link>
 
-          <Link to="/options" className="hover:text-amber"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRErSz1fV0uqYvgUuJrdD5xesgWCYGZNjkEWqeveZAiso3uZR4lBU-5Wme7&s=10" alt="" className="h-8 w-auto object-contain"/></Link>
-          <Link to="/options" className="hover:text-amber">Options</Link>
+          <Link to="/register" className="hover:text-amber">Register / Login</Link> 
+          <Link to="/options" className="hover:text-amber">Explore Solutions</Link>
           <Link to="/about" className="hover:text-amber">Our Story</Link>
           <Link to="/faq" className="hover:text-amber">FAQ</Link>
-          <Link to="/register" className="hover:text-amber">Register / Login</Link>
-          <Link to="/feedback" className="hover:text-amber">Feedback</Link>
+       
 
           <Link to="/contact" className="hover:text-amber">Contact</Link>
+          <Link to="/feedback" className="hover:text-amber">Feedback</Link>
           <Link to="/terms" className="hover:text-amber">Terms</Link>
           <Link to="/refund-policy" className="hover:text-amber">Refunds</Link>
           <Link to="/privacy" className="hover:text-amber">Privacy</Link>
@@ -37,7 +37,7 @@ export default function Footer() {
 
       {/* Copyright */}
       <div className="border-t border-navy-700 py-5 text-center text-xs">
-        © {new Date().getFullYear()} Project T01. All rights reserved.
+        © {new Date().getFullYear()} storiisto. All rights reserved.
       </div>
     </footer>
   );
@@ -52,7 +52,7 @@ export default function Footer() {
 // export default function Footer() {
 //   return (
 //     <footer className="bg-navy-900 text-cream-soft/70">
-//       <div className="container-t01 py-10 flex flex-col md:flex-row md:items-center md:justify-between gap-6">
+//       <div className="container-storiisto py-10 flex flex-col md:flex-row md:items-center md:justify-between gap-6">
 //         <div>
 //           <Logo size="text-2xl" />
 //           <p className="text-sm mt-2 max-w-sm">Starting small. Building meaningful solutions for students and young people in India.</p>
@@ -69,7 +69,7 @@ export default function Footer() {
 //           <Link to="/privacy" className="hover:text-amber">Privacy</Link>
 //         </div>
 //       </div>
-//       <div className="border-t border-navy-700 py-4 text-center text-xs">© {new Date().getFullYear()} Project T01. All rights reserved.</div>
+//       <div className="border-t border-navy-700 py-4 text-center text-xs">© {new Date().getFullYear()} storiisto. All rights reserved.</div>
 //     </footer>
 //   );
 // }

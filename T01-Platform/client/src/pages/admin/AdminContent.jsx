@@ -63,7 +63,7 @@ export default function AdminContent() {
       <Items title="Problems" items={c.problems} onChange={(v) => up('problems', v)} />
       <Field label="Solutions heading" value={c.solutionsTitle} onChange={(v) => up('solutionsTitle', v)} />
       <Items title="Solutions" items={c.solutions} onChange={(v) => up('solutions', v)} />
-      <Items title="Why choose T01" items={c.why} onChange={(v) => up('why', v)} />
+      <Items title="Why choose storiisto" items={c.why} onChange={(v) => up('why', v)} />
       <div className="card p-5 space-y-4">
         <h3 className="font-extrabold">Call to action</h3>
         <div className="grid sm:grid-cols-2 gap-4"><Field label="Title" value={c.cta.title} onChange={(v) => up('cta.title', v)} /><Field label="Button" value={c.cta.button} onChange={(v) => up('cta.button', v)} /></div>

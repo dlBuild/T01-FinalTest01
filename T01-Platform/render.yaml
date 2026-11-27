@@ -2,7 +2,7 @@
 # Database = MongoDB Atlas (create it separately and paste its connection string as MONGO_URI).
 services:
   - type: web
-    name: t01
+    name: storiisto
     runtime: node
     region: singapore            # closest Render region to India - change if you prefer
     plan: starter                # always-on. Do NOT use "free" for a payment site (it sleeps and drops webhooks)
@@ -10,7 +10,7 @@ services:
     startCommand: npm start
     healthCheckPath: /api/health
     disk:
-      name: t01-data
+      name: storiisto-data
       mountPath: /var/data       # thumbnails (and any uploaded product files) survive redeploys
       sizeGB: 1
     envVars:
@@ -33,7 +33,7 @@ services:
       - key: MONGO_URI
         sync: false
       - key: CLIENT_URL
-        sync: false              # e.g. https://t01.in  (your final https domain, no trailing slash)
+        sync: false              # e.g. https://storiisto.in  (your final https domain, no trailing slash)
       - key: SERVER_PUBLIC_URL
         sync: false              # same value as CLIENT_URL (one app serves both)
       - key: ADMIN_EMAIL
@@ -41,7 +41,7 @@ services:
       - key: ADMIN_PASSWORD
         sync: false
       - key: ADMIN_NAME
-        value: T01 Admin
+        value: storiisto Admin
       - key: ADMIN_PHONE
         sync: false
       - key: EMAIL_HOST
@@ -53,7 +53,7 @@ services:
       - key: EMAIL_PASS
         sync: false
       - key: EMAIL_FROM
-        value: "T01 <no-reply@your-domain.com>"
+        value: "storiisto <no-reply@your-domain.com>"
       # Optional, baked into the website at build time (policy pages):
       - key: VITE_SUPPORT_EMAIL
         sync: false

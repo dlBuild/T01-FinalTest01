@@ -4,7 +4,7 @@ const links = [['/admin', 'Overview', true], ['/admin/products', 'Products'], ['
 
 export default function AdminLayout() {
   return (
-    <div className="container-t01 py-10">
+    <div className="container-storiisto py-10">
       <h1 className="text-3xl font-extrabold mb-6">Admin Dashboard</h1>
       <div className="grid lg:grid-cols-[220px_1fr] gap-8">
         <nav className="flex lg:flex-col gap-2 overflow-x-auto">

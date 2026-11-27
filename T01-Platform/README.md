@@ -1,9 +1,9 @@
-# Project T01
+# storiisto
 
 > **Starting small. Building meaningful solutions.**
 > A career-products platform for students and young graduates in India - roadmaps, learning guides and interview resources, sold (or given free) as digital products.
 
-This is **Phase 1** of the vision in `docs/Clarification_Project-T01.pdf`: a small, low-budget website that validates what people need, with real online payments and instant product access.
+This is **Phase 1** of the vision in `docs/Clarification_Project-storiisto.pdf`: a small, low-budget website that validates what people need, with real online payments and instant product access.
 
 | Layer | Tech |
 |---|---|
@@ -53,7 +53,7 @@ npm run dev:client
 
 Open **http://localhost:5173**.
 
-**Admin login** (from `.env`): `admin@t01.local` / `ChangeMe@123` -> change these in `.env` before seeding on any real server.
+**Admin login** (from `.env`): `admin@storiisto.local` / `ChangeMe@123` -> change these in `.env` before seeding on any real server.
 
 ### Try the full purchase flow (mock payments)
 1. Open the site -> **Register / Login for Free** (or click *options* and you will be asked to log in first). Create an account - you land on **options**.
@@ -95,7 +95,7 @@ Works on any Node host (Render, Railway, VPS). Put Nginx/Caddy in front for HTTP
 ## 3. Project structure
 
 ```
-T01/
+storiisto/
 ├── client/   React + Vite + Tailwind  (pages/Learn.jsx = e-book reader, pages/admin/AdminEbook.jsx = builder)
 ├── server/   Express + MongoDB        (controllers/ebookController.js, utils/ebook.js, models/Ebook.js, Progress.js)
 ├── render.yaml                         one-file deploy config for Render (see docs/HOSTING.md)

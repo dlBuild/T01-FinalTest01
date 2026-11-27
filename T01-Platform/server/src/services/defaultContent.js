@@ -1,7 +1,7 @@
 // Default landing-page content. Used as seed data and as a fallback if the DB has no "home" document.
 module.exports = {
   hero: {
-    eyebrow: 'Project T01',
+    eyebrow: 'storiisto',
     title: 'Build the career you actually want.',
     subtitle:
       'Practical roadmaps, learning guides and interview resources for students and young graduates in India - structured, affordable and ready to use.',
@@ -14,7 +14,7 @@ module.exports = {
     { title: 'Skills gap', text: 'Students do not know which skills companies expect or what to learn first.' },
     { title: 'No practical guidance', text: 'Motivation is everywhere. Step-by-step, usable direction is not.' },
   ],
-  solutionsTitle: 'What T01 gives you',
+  solutionsTitle: 'What storiisto gives you',
   solutions: [
     { title: 'Career roadmaps', text: 'Know which career paths exist and what to learn, in what order.' },
     { title: 'Job-role learning guides', text: 'Role-specific guides covering skills, projects and portfolio.' },
@@ -28,5 +28,5 @@ module.exports = {
   ],
   cta: { title: 'Ready to take the next step?', button: 'Get Started' },
   about:
-    'T01 is an initiative to help students, graduates and young people make better decisions about education, careers, skills and personal growth. We are starting small, learning from real people and building something that creates genuine value.',
+    'storiisto is an initiative to help students, graduates and young people make better decisions about education, careers, skills and personal growth. We are starting small, learning from real people and building something that creates genuine value.',
 };
